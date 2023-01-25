@@ -1,0 +1,73 @@
+table thead th {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+
+  }
+  table th {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  table td {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    padding: 2px;
+    text-align: left;
+  }
+  
+  table th:first-child {
+    border-left: 2px solid;
+  }
+  
+  table thead {
+    position: sticky;
+    top: 0;
+    font-weight: bolder;
+  }
+  
+  
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1;
+  }
+  body {
+    font-family: "Roboto";
+  }
+  
+ .gt, .center{
+    text-align: center;
+ }
+
+  .blank_row {
+    height: 20px;
+  }
+  .container {
+    margin: 25px 10px;
+    width: 95vw;
+  }
+  
+  .finalRow {
+    font-size: 35px;
+    background-color: yellow;
+    font-weight: 600;
+    padding-left:3px;
+  }
+  .alternateRow {
+    background-color: lightgrey;
+  }
+  
+  .colorFont {
+    color: green;
+  }
+  .heading{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 400;
+  }
